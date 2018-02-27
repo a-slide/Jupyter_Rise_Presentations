@@ -1,5 +1,8 @@
 jupyter contrib nbextension install --sys-prefix
 jupyter nbextension enable --py widgetsnbextension --sys-prefix
 jupyter nbextension enable python-markdown/main --sys-prefix
-jupyter nbextension enable rise --sys-prefix
+jupyter nbextension enable rise/main --py --sys-prefix
+jupyter nbextension enable init_cell/main --sys-prefix
 
+# Trusted notebooks
+jupyter trust 2018_02_26_Nanopore_path_seminar/2018_02_26_Nanopore_Pathology_seminar.ipynb

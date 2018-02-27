@@ -11,3 +11,5 @@ dependencies:
   - rise
   - jupyter_contrib_nbextensions
   - ipywidgets
+  - pip:
+    - ihtml
