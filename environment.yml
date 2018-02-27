@@ -1,8 +1,13 @@
-name: packaging-environment
+name: rise-environment
 channels:
-  - conda-forge
   - damianavila82
+  - conda-forge
 dependencies:
   - python=3.6
+  - numpy
+  - matplotlib
+  - pandas
+  - bokeh
   - rise
-
+  - jupyter_contrib_nbextensions
+  - ipywidgets

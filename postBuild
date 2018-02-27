@@ -1,0 +1,5 @@
+jupyter contrib nbextension install --sys-prefix
+jupyter nbextension enable --py widgetsnbextension --sys-prefix
+jupyter nbextension enable python-markdown/main --sys-prefix
+jupyter nbextension enable rise --sys-prefix
+
